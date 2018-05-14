@@ -1,54 +1,544 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="UTF-8">
-  <title>About | Apolonio Garcia</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Apolonio Garcia</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Apolonio Garcia</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+      <nav id="nav-wrap">
 
-      <img src="assets/images/profile.jpg" class="auth-image" alt="Your Name">
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-      <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Skills</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+         </ul> <!-- end #nav -->
 
-      <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+      </nav> <!-- end #nav-wrap -->
 
-    </section>
-
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-
-        <a href="https://github.com/apoloniogarcia"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/apolonio-garcia/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="https://stackoverflow.com/users/8744690/apolonio-garcia"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      <div class="row banner">
+         <div class="banner-text">
+            <h3>Hello World.</h3>
+            <h1 class="responsive-headline">I'm Apolonio Garcia</h1>
+            <h3><span>Full Stack Web Developer | Customer Service Specialist</span>
+            <hr>
+            Thanks for visiting my portfolio <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+                <li><a href="https://www.linkedin.com/in/apolonio-garcia/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/apoloniogarcia"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://stackoverflow.com/users/8744690/apolonio-garcia"><i class="fa fa-stack-overflow"></i></a></li>
+            </ul>
+         </div>
       </div>
-    </section>
-  </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 2018 Apolonio Garcia
-    </div>
-  </footer>
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>  Tucson, AZ
+            <br>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>  apolonio.garcia2003@gmail.com
+            <br>
+
+            <p> A Full Stack Web Developer with a background in customer/technical support. I became fascinated with technology at an early age 
+                and have spent my career in team environments and supporting others. I am a dynamic, fast learning team player with an ability 
+                to lead or take direction. I can offer creative customer interface solutions while still being able to contribute as a team player.
+            </p>
+
+            <div class="row">
+
+               <div class="columns download">
+                  <p>
+                     <a href="https://docs.google.com/document/d/1tT9O1coFFA6974DOu2078nYuIlhTpyU13tcN66vWLN8/export?format=pdf" class="button"><i class="fa fa-download"></i>Download My Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+    <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>What I do</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>I earned my stripes through the University of Arizona Coding Bootcamp. The program consisted of a challenging 24 week cirriculum that featured both front and back end technologies.
+                In April 2018 I earned my ceritificaton in Full Stack Web Development.
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand html5"></span><em>HTML</em></li>
+                  <li><span class="bar-expand css"></span><em>CSS</em></li>
+						<li><span class="bar-expand javascript"></span><em>Javascript</em></li>
+						<li><span class="bar-expand nodejs"></span><em>Node.js</em></li>
+                        <li><span class="bar-expand react"></span><em>React.js</em></li>
+                        <li><span class="bar-expand mongodb"></span><em>Git</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out My Portfolio</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/momento.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Momento</h5>
+                              <p>A Micro Social Network</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/robofriends.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Robofriends</h5>
+                              <p>A robot friends directory</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/jsdrums.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>JavaScript Drums</h5>
+                              <p>You can't beat me, I'm a rockstar!!!</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/cinema.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>ReelVue</h5>
+                              <p>Movie info...simplified</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/coming-soon.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coming Soon</h5>
+                              <p>Check back soon!</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/coming-soon.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coming Soon</h5>
+                              <p>Check Back Soon!</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/coming-soon.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coming Soon</h5>
+                              <p>Check Back Soon!</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/coming-soon.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coming Soon</h5>
+                              <p>Check Back Soon!</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+        <div id="modal-01" class="popup-modal mfp-hide">
+            <img class="scale-with-grid" src="images/portfolio/modals/m-momento.png" alt="" />
+		      <div class="description-box">
+			      <h3>Momento</h3>
+			      <p>I had the pleasure of working with three brilliant minds to bring you this micro social network that enables photo sharing. I was part of the backend team
+                      that implemented technologies like MongoDB and Passport.</p>
+               <span class="categories"><i class="fa fa-tag"></i>React.js | MongoDB</span>
+		      </div>
+            <div class="link-box">
+                <a href="https://momento-sp.herokuapp.com/">Momento</a>
+		        <a class="popup-modal-dismiss">Close</a>
+            </div>
+	    </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-robofriends.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Robofriends</h4>
+			      <p>Robofriends is an app utilizing React.js and a fun Robot API. Robofriends helps you find your next robo-best friend</p>
+               <span class="categories"><i class="fa fa-tag"></i>React.js</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://apoloniogarcia.github.io/Robo-Friends/">Robofriends</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-jsdrums.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Javascript Drums</h4>
+			      <p>This fun Javscript App turns your keyboard into a drumkit at your fingertips, give a try at the link below.</p>
+               <span class="categories"><i class="fa fa-tag"></i>HTML, CSS, Javascript</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://apoloniogarcia.github.io/JS-Drum-Kit/">Javascript Drum Kit</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-reelvue.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>ReelVue</h4>
+			      <p>ReelVue is a Movie Database that brings spimplicity and fun to looking up your favorite movies. This was a collaborative effort between myself and three of my classmates
+                      at the University of Arizona Coding Bootcamp.
+                  </p>
+               <span class="categories"><i class="fa fa-tag"></i>OMDB API, HTML, CSS, SASS</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://apoloniogarcia.github.io/Reelvue/">Reelvue</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-comingsoon.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coming Soon</h4>
+			      <p>Check back soon to see what I'll come up with next!</p>
+               <span class="categories"><i class="fa fa-tag"></i></span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#"></a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-comingsoon.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coming Soon</h4>
+			      <p>Check back soon to see what I'll come up with next!</p>
+               <span class="categories"><i class="fa fa-tag"></i></span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#"></a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-comingsoon.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coming Soon</h4>
+			      <p>Check back soon to see what I'll come up with next!</p>
+               <span class="categories"><i class="fa fa-tag"></i></span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#"></a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-comingsoon.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coming Soon</h4>
+			      <p>Check back soon to see what I'll come up with next!</p>
+               <span class="categories"><i class="fa fa-tag"></i></span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                           to do what you believe is great work. And the only way to do great work is to love what you do.
+                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>"You miss 100% of the shots you don't take."
+                           </p>
+                           <cite>Wayne Gretzky</cite>
+                        </blockquote>
+                     </li>
+                     
+                     <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.linkedin.com/in/apolonio-garcia/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/apoloniogarcia"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://stackoverflow.com/users/8744690/apolonio-garcia"><i class="fa fa-stack-overflow"></i></a></li>
+            </ul>
+         </div>
+
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
 
 </html>
